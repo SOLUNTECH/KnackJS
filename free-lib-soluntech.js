@@ -60,6 +60,13 @@ Soluntech.prototype.set = function (key, value) {
     });
 };
 
+Soluntech.prototype.assert = function (cond, message) {
+
+    if (!cond) {
+        throw new Error(message);
+    }
+};
+
 Object.defineProperty(Soluntech.prototype, 'headers', {
     get: function () {
 
