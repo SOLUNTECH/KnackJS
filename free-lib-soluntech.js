@@ -1,7 +1,9 @@
 /*
     Soluntech Library to Knack applications
 
-    Soluntech - 2018
+    Luis Miguel Bula Mora <bulaluis@gmail.com>
+
+    Soluntech - 2017
     www.soluntech.com
 */
 var Soluntech = function (info) {
