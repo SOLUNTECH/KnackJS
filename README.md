@@ -17,9 +17,7 @@ KnackInitAsync = function ($, callback) {
 window.$ = $;
 window.LazyLoad = LazyLoad;
 
-LazyLoad.js(['https://s3.amazonaws.com/soluntech-www/KnackJS/free-lib-soluntech.js'], function () {
-
-    var lib = new Soluntech({
+LazyLoad.js(['https://s3.amazonaws.com/soluntech-www/KnackJS/free-lib-soluntech.js'], function () {var lib = new Soluntech({
         applicationID: 'ID IN KNACK',
         restAPIkey: 'API KEY IN KNACK',
         environment: 'development',
