@@ -3,12 +3,10 @@ Free JavaScript library for Knack developers
 
 Hi guys,
 
-For those persons who use Knack, we developed a library for Knack with functionalities to simplify our js code. We share with you a free version of it.
+For those people who use Knack's API, we developed a JavaScript library with common functionalities (update, create, delete, find) to simplify and speed up your development work. Here's a free version of it.
 
 A wiki was made for the free version of the Soluntech KnackJS library.
 https://github.com/SOLUNTECH/KnackJS/wiki
-
-Make sure you use it.
 
 To start using the lib, you have to initiate it in the code. All your js code will be written there.
 
@@ -39,10 +37,6 @@ To start using the lib, you have to initiate it in the code. All your js code wi
 1. You have to find and set your appID and restAPIkey in Knack
 2. You have a function called lib set which will allows you to set the object of knack and then later update, create, delete the records there.
 
-
-This library provide you a simplify way of editing your objects with three methods, create, update and delete.
-
-
 a. The method lib.create will bring you the possibility of creating a record in your object you set earlier in your code (lib.set). Example below:
 
 
@@ -52,19 +46,16 @@ a. The method lib.create will bring you the possibility of creating a record in 
                                             field_56: date
                                         }))
 
-b. The method lib.update will bring you the possibility of updating a record and his fields in your object you set earlier in your code (lib.set). Example below:
+b. The method lib.update will bring you the possibility of updating a record and fields in your object you set earlier in your code (lib.set). Example below:
 
 
     lib.update(lib.OBJECTS_ID.nameOfYourObjectSet, record.id, JSON.stringify({
                     field_157: account
                 }))
 
-c. Finally the method lib.delete which will bring you the option of deleting your record selected in the object
-
+c. Finally the method lib.delete which will bring you the option of deleting a record selected in the object
 
     lib.delete(self.OBJECTS_IDS.nameOfYourObjectSet, record.id)
-
-
 
 We have two methods which permits to bring records from knack, find and findById
 One of the other method of the lib is the lib.find, which allows you to bring records by a specific value from a field.
