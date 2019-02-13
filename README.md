@@ -1,8 +1,6 @@
 # KnackJS
 Free JavaScript library for Knack developers
 
-Hi guys,
-
 For those people who use Knack's API, we developed a JavaScript library with common functionalities (update, create, delete, find) to simplify and speed up your development work. Here's a free version of it.
 
 A wiki was made for the free version of the Soluntech KnackJS library.
